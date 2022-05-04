@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class BookController {
 
-    //Beter sig som om de vore static
+    //Beter sig som om de vore static....
     BookDao bd = new BookDao();
     List<BookLombok> books = bd.getList();
 
